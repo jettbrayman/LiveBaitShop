@@ -1,0 +1,200 @@
+.stuffwehave-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+	gap: 2rem;
+	padding: 2rem;
+
+}
+
+.stuffwehave-item {
+	text-align: center;
+}
+
+.stuffwehave-item:hover {
+	transform: translateY(-5px);
+}
+
+.stuffwehave-icon {
+	font-size: 3rem;
+	color: #35a576;
+	margin-bottom: 1rem;
+
+}
+
+.stuffwehave-name {
+	font-weight: bold;
+	color: black;
+}
+
+.hanuman-regular {
+	font-family: "Hanuman", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: "Hanuman", serif;
+	background-color: #d8fcc2;
+	padding-bottom: 60px;
+}
+
+.navigation {
+	background-color: #35a576;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #117180;
+	text-shadow: 2px 2px 5px #000;
+	background-image: url("bassground.avif");
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	background-size: cover;
+	text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000,
+		-3px 0px 0 #000,
+		3px 0px 0 #000,
+		0px -3px 0 #000,
+		0px 3px 0 #000;
+}
+
+.location-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px; 
+}
+
+.imgs img {
+    object-fit: cover; 
+	height: 100%;
+  width: auto;
+  object-fit: contain;
+    border-radius: 15px; 
+}
+.imgs {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.imgs img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+}
+.stuffwehave ul {
+	list-style-type: square;
+	color: #117180;
+	font-weight: bold;
+}
+
+.bait-section {
+	background-color: #9eca83;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 15px;
+}
+
+.respooling {
+	background-color: #9eca83;
+	padding: 40px;
+	margin: 20px 0;
+	border-radius: 15px;
+}
+
+.facebook-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+	border-radius: 15px;
+}
+
+.facebook-text {
+	padding: 20px;
+	background-color: #9eca83;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.facebookButton {
+	font-size: 1.25rem;
+	background-color: #4267B2;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	width: fit-content;
+}
+
+footer {
+	background-color: #35a576;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin-top: 20px;
+	align-items: flex-end;
+}
+
+.sticky-chat {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+.button {
+	background-color: #35a576;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 25px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #186429;
+	transform: translateY(-2px);
+
+
+}
+
+.navbar {
+	background-color: #35a576;
+	padding: 10px;
+	justify-content: center;
+}
+
+.navbar a {
+	color: white;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	padding-top: 30px;  /* Adjust as needed */
+	margin-top: 20px;   /* Optional, adds extra space */
+}
